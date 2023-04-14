@@ -28,19 +28,23 @@ h1 {
 }
 
 .cell {
-    width: 100px;
+    flex: 0 0 calc((100% - 6rem) / 7);
     aspect-ratio: 1 / 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
     background-color: #1389B2;
 }
 
-#fizz {
+.fizz {
     background-color: #0CD6A1;
 }
 
-#buzz {
+.buzz {
     background-color: #FFD166;
 }
 
-#fizzbuzz {
+.fizzbuzz {
     background-color: #F0466F;
 }
